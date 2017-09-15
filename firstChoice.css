@@ -1,0 +1,28 @@
+@font-face {
+    font-family: palanquin-extralight;
+    src: url(fonts/palanquin/palanquin-extralight.ttf);
+}
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: palanquin-extralight !important;
+}
+
+.upload, .estimate {
+    height: 20%;
+    width: 20%;
+    background-color: grey;
+    top: 45%;
+    position: absolute;
+}
+.upload {
+    left: 15%;
+}
+.estimate {
+   left: 64%;
+}
