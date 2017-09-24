@@ -26,6 +26,15 @@ button {
     width: 100%;
     position: relative;
 }
+.logo {
+    background-image:url("pics/Chooser (1).png") ;
+    height: 111px ;
+    width: 320px ;
+    position: absolute ;
+    right: 975px ;
+     top: -25px ;
+    z-index: 3 ;
+}
 .background-for-pic {
     background-image: url("pics/wallpaper (4).jpg");
     position: absolute;
@@ -62,8 +71,8 @@ p.phrase {
     border-radius: 5px;
     left: 230px;
     top: 450px;
-    font-size: x-large;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: bolder;
     color: white;
     border: none;
     box-shadow: 0px 4px 0px 0px rgb(72,18,28);
