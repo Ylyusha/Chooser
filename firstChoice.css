@@ -53,23 +53,26 @@ body {
 .upload {
     height: 60px;
     width: 285px;
-    background-color:lightgray;
+    background-color:transparent;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     border-radius: 5px;
     top: 42%;
     left: 10%;
     font-size: 15px;
-    color: lightgray;
+    color: transparent;
     border: none;
 }
+.half1:hover > .tan1 {
+    display: none;
+}
 
-.upload:hover {
+.half1:hover .upload {
     height: 70px;
     width: 300px;
     background-color:lightgray;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     border-radius: 5px;
     top: 41%;
     left: 9%;
@@ -79,7 +82,7 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.5);
     transition: 0.5s linear;
 }
-.half1:hover > .tan1 {
-    display: none;
-}
 
+.upload:focus {
+    outline: 0;
+}
