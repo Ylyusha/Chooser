@@ -93,7 +93,7 @@ p.phrase {
 
 button.start-btn:active {
     box-shadow: none;
-    top: 454px;
+    transform: translateY(4px);
     transition-duration: 0s;
 }
 button.start-btn:focus{
